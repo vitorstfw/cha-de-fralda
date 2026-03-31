@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cha da helloyse</title>
+
+    <style>
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(135deg, #ffe4ec, #f8c8dc);
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+    color: #333;
+}
+
+.container {
+    background: white;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+    animation: fadeIn 1.2s ease-out;
+}
+
+img{
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+h1{
+    font-size: 2.5em;
+    color: #e91e63;
+    margin-bottom: 15px;
+}
+
+p{
+    font-size: 1em;
+    line-height: 1.5;
+}
+
+.heart {
+    font-size: 22px;
+    margin-top: 20px;
+}
+
+@keyframes fadeIn {
+    from{
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.hearts span{
+    position: fixed;
+    bottom: -20px;
+    animation: floatUp 6s infinite;
+    font-size: 20px;
+}
+
+.hearts span:nth-child(2){left: 30%; animation-delay: 2s;}
+.hearts span:nth-child(3){left: 70%; animation-delay: 4s;}
+
+@keyframes floatUp {
+    0%{
+        transform: translateY(0);
+        opacity: 1;
+    }
+
+    100%{
+        transform: translateY(-100vh);
+        opacity: 0;
+}
+}
+    </style>
+</head>
+<body>
+<div class="container">
+
+<img src="img/bebe.png.png" alt="" srcset="">
+
+<h1>Obrigado 💝</h1>
+
+<p>A chegada da nossa pequena é um presente de Deus 🙏 <br><br>
+E ter você fazendo parte desse momento torna tudo ainda mais especial. <br><br>
+Obrigado pelo carinho, presença e pelo mimo no nosso chá de fraldas 🤱✨
+</p>
+
+<div class="heart">🤱💝✨</div>
+
+<div class="hearts">
+    <span>💖</span>
+    <span>💝</span>
+    <span>💞</span>
+</div>
+</div>   
+</body>
+</html>
